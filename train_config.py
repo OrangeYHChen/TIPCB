@@ -7,7 +7,7 @@ def parse_args():
     #dataset_Directory
     #CUHK-PEDES
     parser.add_argument('--dir', type=str,
-                        default=r'/Project0551/guoqing/yuhao/datasets',
+                        default=r'/datasets',
                         help='directory to store dataset')
     parser.add_argument('--dataset', type=str,
                         default="CUHKPEDES")
