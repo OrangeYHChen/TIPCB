@@ -6,6 +6,7 @@ We evaluate our method on CUHK-PEDES. Please visit [Here](http://xiaotong.me/sta
 ### Usage
 * You need to generate tokens to "/data/BERT_encode/" by running "BERT_token_64.py" or downloading from [Here](https://drive.google.com/drive/folders/1gVWpGq7FJg6kSvK_wJH9BYQCikVHVydg?usp=sharing).
 * If you want to train the network, you can run our code with the following commands:
+
 ``
 python train.py --max-length 64 --batch-size 64 --num-epoches 80 --adam-lr 0.003 --gpus 0
 ``
