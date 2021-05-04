@@ -1,5 +1,11 @@
 # TIPCB
 
+### Prerequisites
+* Pytorch 1.1
+* cuda 9.0
+* python 3.6
+* GPU Memory>=12G
+
 ### Datasets
 We evaluate our method on CUHK-PEDES. Please visit [Here](http://xiaotong.me/static/projects/person-search-language/dataset.html).
 
